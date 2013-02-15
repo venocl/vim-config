@@ -1,19 +1,16 @@
 execute pathogen#infect()
-:call pathogen#helptags()
+call pathogen#helptags()
 
-:set number
-:set ruler
+set number
+set ruler
 syntax on
-set smartindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
 
 " Indentation configuration
 
-:set expandtab
-:set tabstop=2
-:set shiftwidth=2
+set smartindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
 nmap <S-Tab> <<
 nmap <Tab> >>
